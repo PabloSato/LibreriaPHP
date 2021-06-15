@@ -67,12 +67,12 @@ if(isset($_GET["mng"]))
                         <br>
                         <label for="bio">Biografía: </label>
                         <br>
-                        <div id="editor">
+                        <!--<div id="editor" name="bio">
                             <p>Añade la biografía....</p>
-                        </div>
-                        <!--
+                        </div>-->
+                       
                         <textarea id="bio" rows="10" cols="72" name="bio" placeholder="añade biografía..."></textarea>
-                        -->
+                        
                         <br>
                         <label>¿Es Dibujante?</label>
                         <input type="radio" name="dibu" value="si">Si
