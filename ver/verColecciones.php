@@ -28,7 +28,7 @@
                <input type="text" id="myInput" placeholder="buscar coleccion..." onkeyup="myfunction()"
                       title="Type in a name" autofocus>
            </div>
-            <hr><div class="gal_total">
+            <hr><div class="gal_total_colec">
                 <?php include '../inc/colecciones.php';?>
             </div>
             

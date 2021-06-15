@@ -56,10 +56,11 @@ if(isset($_GET["id"])){
                     ?>
            <hr>
             <h2>SAGAS</h2>
+            <div class="gal_total_colec">
                         <?php
                     for($i=0; $i<$nfilas;$i++){
                         $fila = mysqli_fetch_array($consulta_autor);
-                        ?><div class="gal_libros">
+                        ?><div class="gal_libros_colec">
                             <a href="../ver/verLibroSaga.php?id=<?=$fila["id_saga"]?>">
                                 <div class="port_colec" onmouseover="showTtl('<?=$fila["id_saga"]?>')" onmouseout="hideTtl('<?=$fila["id_saga"]?>')">
                                     <img src="../actbbdd/uploads/<?=$fila["imagen"]?>" alt="<?=$fila["nombre"]?>">
@@ -73,6 +74,7 @@ if(isset($_GET["id"])){
                     }
                 }?><br><?php
             ?>
+            </div>
             <hr>
             <br>
             <div class="gal_total">
