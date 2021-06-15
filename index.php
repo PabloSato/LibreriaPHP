@@ -165,6 +165,7 @@ $name_autor = mysqli_fetch_array($consulta_id);
                                 <li><a href="ver/verIdioma.php">IDIOMAS</a></li>
                                 <li><a href="#ubicaciones">AÑADIR</a></li>
                                 <li><a href="#">RETO</a></li>
+                                <li><a href="#">MISCELANEA</a></li>
                             </ul>
                         </nav>
                     </div>
