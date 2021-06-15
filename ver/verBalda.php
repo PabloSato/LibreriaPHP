@@ -41,7 +41,7 @@ if(isset($_GET["id"])){
                       title="Type in a name" autofocus>
            </div>
             <hr>
-            <div class="gal_total">
+            <div class="gal_total_colec">
                 <?php include '../inc/st_balda.php';?>
             </div>
             

@@ -8,7 +8,7 @@ if($nfilas_balda>0){
     for($i=0; $i<$nfilas_balda;$i++){
         $nume += 1;
         $fila = mysqli_fetch_array($consulta_balda);
-        ?><div class="gal_libros">
+        ?><div class="gal_libros_colec">
             <a href="../ver/verLibroBalda.php?id=<?=$fila["id"]?>">
                 <div class="port_colec" onmouseover="showTtl('<?=$fila["id"]?>')" onmouseout="hideTtl('<?=$fila["id"]?>')">
                     <img src="../img/balda/balda<?= $nume ?>.png" alt="numero balda">
