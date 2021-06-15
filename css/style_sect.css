@@ -247,7 +247,7 @@ p, h4, h5{
 .gal_total_colec{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1em;
     grid-auto-rows: 175px;
 }
@@ -315,13 +315,14 @@ p, h4, h5{
     display: none;
     overflow: auto;
 }
-.gal_libros_colecs a .tit_colec{
+.gal_libros_colec a .tit_colec{
     width: 100%;
     position: absolute;
     background-color: rgba(94, 90, 90, 0.8);
     bottom: 0px;
     display: none;
     overflow: auto;
+    color: #fff;
 }
 .gal_libros a .tit_catal h5{
     text-align: center;
